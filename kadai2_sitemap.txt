@@ -1,0 +1,13 @@
+
+user_list_view.php（一覧画面、更新/削除リンク)
+if(登録ボタンを押下)
+->user_index.phpで登録画面
+　->user_update.phpで登録
+     ->user_index.phpにリダイレクト
+if(更新ボタンを押すと)
+->user_update_index.phpで登録画面
+  ->user_update.phpで登録
+  　 ->user_update_index.phpにリダイレクト
+if(削除を押下)
+->user_delete.phpで削除
+  ->user_list_view.phpにリダイレクト
